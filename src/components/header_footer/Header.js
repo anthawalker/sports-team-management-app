@@ -4,7 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
 
-import { CityLogo } from '../ui/icons';
+import { CityLogo } from '../utils/icons';
 
 class Header extends Component {
   render() {
