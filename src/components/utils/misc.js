@@ -36,10 +36,9 @@ export const firebaseLooper = (snapshot) => {
   return data;
 }
 
-export const reverseArray = (actualArray) => {
-
-  return actualArray.reduce((prev, curr) => {
+export const reverseArray = (actualArray) => (
+  actualArray.reduce((prev, curr) => {
     prev.unshift(curr);
     return prev;
-  }, []);
-}
+  }, [])
+);
